@@ -4,6 +4,8 @@ https://github.com/neovim/neovim/releases/tag/v0.9.4
 git clone https://github.com/Mattias421/NvChad.git ~/.config/nvim --depth 1 && nvim
 ```
 
+Install plugins with Mason `:MasonInstallAll`
+
 <h1 align="center">NvChad</h1>
 
 <div align="center">
