@@ -2,7 +2,7 @@ local plugins = {
   {
     "jose-elias-alvarez/null-ls.nvim",
     ft = {"python"},
-    opts = function ()
+    opts = function()
       return require "custom.configs.null-ls"
     end,
   },
@@ -10,7 +10,7 @@ local plugins = {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
-        "pyright",
+        -- "pyright",
         "mypy",
         "ruff"
       },
