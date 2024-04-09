@@ -22,3 +22,4 @@ require "plugins"
 
 -- chad
 vim.wo.relativenumber = true
+
