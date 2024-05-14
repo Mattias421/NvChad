@@ -29,6 +29,8 @@ local plugins = {
     init=function ()
     vim.g.vimtex_view_method = 'zathura'
     vim.g.vimtex_syntax_enabled = 1
+    vim.g.vimtex_complete_bib_simple = 1
+    vim.g.vimtex_quickfix_open_on_warning = 0
     vim.cmd('set spell')
     vim.cmd('set spelllang=en_gb')
     vim.cmd('inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u')
